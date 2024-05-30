@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## SignChain - Keccak
+## SignDocu
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
@@ -78,16 +78,3 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 2. Update user & databse di file env.
 3. Edit APP_URL di env menjadi nama domain/subdomain
 4. Di file .env variable GOOGLE_REDIRECT ubah htpp://localhost:8000 menjadi nama domain & subdomain
-
-## Buat Sertificate
-### generate new .crt file, it's contained certificate & private key
-openssl req -x509 -nodes -days 365000 -newkey rsa:1024 -keyout certificate.crt -out certificate.crt
-
-### convert .crt to binar .p12 file
-openssl pkcs12 -export -in certificate.crt -out certificate.p12
-
-### get private key from .p12 file, it will ask for passphrase/password, so the generated private key will be encrypted
-openssl pkcs12 -in certificate.p12 -nocerts -out private.key
-
-### get certificate from .p12 file
-openssl pkcs12 -in certificate.p12 -clcerts -nokeys -out certificate.crt
