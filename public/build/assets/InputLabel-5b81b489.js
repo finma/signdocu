@@ -1,0 +1,1 @@
+import{j as l,a as x}from"./app-87882047.js";function n({value:s,className:e="",required:t=!1,children:a,...r}){return l("label",{...r,className:"block text-xs md:text-sm text-gray-500"+e,children:[s||a,t&&x("span",{className:"text-red-500 ms-1",children:"*"})]})}export{n as I};

@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.my-sweetalert-confirm-button {
+    background-color: #ff0000; /* Ganti dengan warna tombol yang diinginkan */
+}
+
+.my-sweetalert-cancel-button {
+    background-color: #00ff00; /* Ganti dengan warna tombol yang diinginkan */
+}

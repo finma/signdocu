@@ -1,0 +1,1 @@
+import{j as n,a as t}from"./app-87882047.js";function s({width:e=110,label:a,value:i}){return n("tr",{className:"align-top",children:[t("td",{width:e,className:"font-medium",children:a}),t("td",{width:10,children:":"}),t("td",{children:i})]})}export{s as D};

@@ -1,0 +1,1 @@
+import{a as c}from"./app-87882047.js";import{c as m}from"./clsx.m-1229b3e0.js";function e({icon:s,ms:o,me:r,className:a,...i}){return c("i",{className:m(o&&`ms-${o}`,r&&`me-${r}`,a,`bi bi-${s}`),...i})}export{e as I};

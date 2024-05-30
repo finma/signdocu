@@ -1,0 +1,1 @@
+import{r as a}from"./app-87882047.js";import{Q as d}from"./react-toastify.esm-801a0bbd.js";function u(e,n){a.useEffect(()=>{e.success&&d.success(e.success,{theme:"colored"})},[e]);const r=(o,c)=>{const s=o,t=document.createElement("a");t.href=s,t.download=c,t.click(),URL.revokeObjectURL(s)};return{handleDownload:()=>{const o=n.dokumen,c=`${n.perihal}.pdf`;r(o,c)}}}export{u as U};
